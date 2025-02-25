@@ -6,7 +6,7 @@ In autonomous driving, constructing high-precision maps typically represented as
 
 | Traversability Model | Pointcloud Result | BEV Result |
 | ------- | ------- | ------- |
-| ![](assets/traversability model.gif) | ![](assets/pointcloud_result.gif) | ![](assets/BEV_result.gif) |
+| ![](assets/traversability_model.gif) | ![](assets/pointcloud_result.gif) | ![](assets/BEV_result.gif) |
 <!-- | ------- | ------- | ------- | -->
 
 
