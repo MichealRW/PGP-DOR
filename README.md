@@ -11,11 +11,11 @@ We propose PGP-DOR, a novel method for accurately identifying and efficiently re
 | ![](assets/traversability_model.gif) | ![](assets/pointcloud_result.gif) | ![](assets/BEV_result.gif) |
 <!-- | ------- | ------- | ------- | -->
 
-### Comparison with State-of-the-Art  
+</div>
+
+## Comparison with State-of-the-Art  
 Our method achieves superior dynamic object removal compared to existing approaches.  
 ![](assets/img/qualitative_evaluation.png)
-
-</div>
 
 ## Repository Status
 Currently, the supporting code and dataset are under review as part of the publication process. The materials will be made publicly available upon acceptance of the paper. Please stay tuned for updates.
