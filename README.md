@@ -4,7 +4,7 @@ PGP-DOR: A Point-Grid-Point Scheme for Efficient Dynamic Object Removal
 ## Overview
 In autonomous driving, constructing high-precision maps typically represented as 3D point cloud maps and bird's-eye view (BEV) images is essential for both offline and online applications. However, dynamic objects within a scene can introduce artifacts and noise that significantly degrade map accuracy. To address this challenge, we propose a method that accurately identifies and efficiently removes the interference caused by dynamic objects. Our approach fully exploits the spatiotemporal attributes of BEV grids through a point-grid-point (PGP) update strategy while discriminating motion attributes at both the point cloud and BEV grid levels. Moreover, we introduce Bayesian Generative Kernel Inference (BGKI) to perform dense dynamic attribute inference at the grid level, markedly enhancing the accuracy and robustness of moving object detection. Experimental results on public datasets and self-collected data demonstrate that our method consistently outperforms current state-of-the-art approaches in dynamic object removal across both online and offline scenarios at the BEV and point cloud levels.
 
-![](assets/dynamic.gif)
+![](asset/dynamic.gif)
 
 
 ## Repository Status
