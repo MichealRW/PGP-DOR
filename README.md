@@ -2,7 +2,7 @@
 PGP-DOR: A Point-Grid-Point Scheme for Efficient Dynamic Object Removal
 
 ## Overview
-In autonomous driving, constructing high-precision maps typically represented as 3D point cloud maps and bird's-eye view (BEV) images is essential for both offline and online applications. However, dynamic objects within a scene can introduce artifacts and noise that significantly degrade map accuracy. To address this challenge, we propose a method that accurately identifies and efficiently removes the interference caused by dynamic objects. Our approach fully exploits the spatiotemporal attributes of BEV grids through a point-grid-point (PGP) update strategy while discriminating motion attributes at both the point cloud and BEV grid levels. Moreover, we introduce Bayesian Generative Kernel Inference (BGKI) to perform dense dynamic attribute inference at the grid level, markedly enhancing the accuracy and robustness of moving object detection. Experimental results on public datasets and self-collected data demonstrate that our method consistently outperforms current state-of-the-art approaches in dynamic object removal across both online and offline scenarios at the BEV and point cloud levels.
+We propose PGP-DOR, a novel method for accurately identifying and efficiently removing dynamic objects in autonomous driving maps. Our approach leverages a Point-Grid-Point (PGP) update strategy to fully exploit the spatiotemporal attributes of BEV grids while distinguishing motion attributes at both the point cloud and BEV levels. Additionally, we employ Bayesian Generative Kernel Inference (BGKI) for dense dynamic attribute inference, significantly improving the accuracy and robustness of dynamic object removal. Experimental results on public datasets and self-collected data show that PGP-DOR outperforms state-of-the-art methods in both online and offline scenarios.
 
 <div align="center">
   
@@ -10,6 +10,10 @@ In autonomous driving, constructing high-precision maps typically represented as
 | ------- | ------- | ------- |
 | ![](assets/traversability_model.gif) | ![](assets/pointcloud_result.gif) | ![](assets/BEV_result.gif) |
 <!-- | ------- | ------- | ------- | -->
+
+### Comparison with State-of-the-Art  
+Our method achieves superior dynamic object removal compared to existing approaches.  
+![](assets/img/qualitative_evaluation.png)
 
 </div>
 
