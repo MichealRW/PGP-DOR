@@ -1,0 +1,8 @@
+build/
+lib/
+
+bin/pgp_dor_kitti
+bin/pgp_dor_ros_node
+bin/oldmap/
+bin/outputs/
+bin/ros_runtime/
